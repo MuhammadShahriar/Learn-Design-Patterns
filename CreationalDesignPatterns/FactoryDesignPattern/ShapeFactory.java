@@ -1,4 +1,4 @@
-package FactoryDesignPattern;
+package CreationalDesignPatterns.FactoryDesignPattern;
 
 public class ShapeFactory {
     public Shape getShape ( String shapeType ) {
@@ -13,7 +13,7 @@ public class ShapeFactory {
         else if ( shapeType.equalsIgnoreCase("Rectangle") ) {
             return new Rectangle();
         }
-        
+
         return null;
     }
 }
